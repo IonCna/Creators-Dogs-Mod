@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "creatorsdogs",
+  "version": "${version}",
+
+  "name": "Creator's Dog's Mod",
+  "description": "Agrega a los perros de los creadores",
+  "authors": [
+    "Aru", "IonCna", "TheSheeper", "Mura"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/IonCna/Creators-Dogs-Mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/creatorsmods/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "taco.creators.dogs.CreatorsDogs"
+    ]
+  },
+  "mixins": [
+    "creatorsdogs.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
